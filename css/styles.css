@@ -96,3 +96,18 @@ section blockquote {
         max-width: 75vw;
     }
 }
+
+#fixedicon {
+    position: fixed;
+    /* 固定定位 */
+    bottom: 20px;
+    /* 从底部向上20像素 */
+    right: 20px;
+    /* 从右边向左20像素 */
+    border-radius: 50%;
+    /* 设置圆角以创建圆形图片 */
+    width: 100px;
+    /* 你可以设置自己需要的图片宽度 */
+    height: 100px;
+    /* 你可以设置自己需要的图片高度 */
+}
